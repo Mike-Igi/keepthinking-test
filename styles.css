@@ -1,0 +1,141 @@
+//CSS reset
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+body { 
+	font-size: 14px; 
+	font-family: 'arial', sans-serif; 
+}
+h1{
+	padding-bottom: 40px;
+}
+p{
+	color: #000000;
+}
+#form-search input[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(assets/searchicon.png);
+    background-position: 100% 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+    margin-top: 5px;
+}
+.no-padding{
+	padding: 0;
+}
+.no-padding-left{
+	padding-left: 0;
+}
+.no-padding-right{
+	padding-right: 0;
+}
+.no-padding-bottom{
+	padding-bottom: 0;
+}
+.news-images{
+	max-height: 250px;
+	min-width: 100%;
+}
+.news-images + p.caption-heading{
+	padding-top: 15px;
+	font-weight: bold;
+}
+img.img-video{
+	width: 10%;
+	padding-top: 20%;
+	margin: 0 auto 20% auto;
+	display: table;
+}
+p.caption{
+	padding-bottom: 75px;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+img.hero{
+	margin: auto;
+	display: table;
+}
+.hero-caption-header{
+	width: 70%;
+    margin: auto;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.hero-caption{
+	width: 70%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+.section-padding{
+	clear: both;
+	padding-top: 25px;
+}
+div.section-header{
+	text-align: center;
+}
+.navbar-default{
+	background: transparent !important;
+	border: none !important;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover{
+	border-color: transparent !important;
+	background: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    clear: both;
+    width: 70%;
+    margin: auto;    
+}
+.bx-wrapper .bx-pager {
+    text-align: right;
+}
+.bx-wrapper .bx-controls-direction a{
+	display: none;
+}
+section#artists{
+	height: 500px;
+}
+.footer{
+	background: #404040;
+	color: #ffffff;
+	height: 40px;
+	padding: 15px !important;
+}
+.footer p{
+	color: #888;
+}
+@media (min-width: 768px){
+.navbar-toggle {
+    display: block;
+	}
+.navbar-header{
+	float: none;	
+	}
+}
+.col-md-12{
+	float: none;
+	width: 70%;
+	margin: auto;
+	padding: 0;
+}
+.col-md-12 hr{
+	border-top: 1px solid #BFBFBF;
+}
